@@ -1,36 +1,28 @@
-# discbot
 # Discord Administration Bot
 
 Бот для управления серверами Discord с интеграцией GitHub
 
 ## Установка
 
-1. Установите зависимости:
-```bash
-pip install -r requirements.txt
-Переименуйте config.example.py в config.py и заполните данные
+Установите зависимости:
+1. pip install -r requirements.txt
+2. Переименуйте config.example.py в config.py и заполните данные
 
-Запустите бота:
 
-bash
-Copy
-python main.py
-Команды
+Команды:
+
 !kick @user [причина] - Кикнуть пользователя
 
 !ban @user [причина] - Забанить пользователя
 
 !clear N - Удалить N сообщений
 
-!push [сообщение] - Выгрузить код на GitHub
-
-Copy
+Остальные важные команды бот выдает по команде !help 
 
 3. Файл `requirements.txt`
 discord.py>=2.0.0
 python-dotenv>=0.19.0
 
-Copy
 
 4. Файл `config.example.py`
 ```python
